@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include booking_app *.css
+recursive-include booking_app *.csv
+recursive-include booking_app *.html
+recursive-include booking_app *.ico
+recursive-include booking_app *.js
+recursive-include booking_app *.json
+recursive-include booking_app *.md
+recursive-include booking_app *.png
+recursive-include booking_app *.py
+recursive-include booking_app *.svg
+recursive-include booking_app *.txt
+recursive-exclude booking_app *.pyc
